@@ -1,0 +1,4 @@
+{
+    "name": "Npm Node Build Action",
+    "description": "Build 된 결과물을 Artifact로 출력하는 작업입니다"
+}

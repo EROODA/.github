@@ -1,0 +1,22 @@
+name: Push to Main Branch Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    uses: EROODA/erooda-fe/.github/workflows/npm-build-action.yml@main
+    secrets: inherit
+    with:
+      build-script: build
+      branch-ref: main
+      build-artifact-name: build-output
+
+  deploy:
+    needs: build
+    uses: EROODA/erooda-fe/.github/workflows/build-s3-deploy-action.yml@main
+    secrets: inherit
+    with:
+      build-artifact-name: build-output

@@ -1,0 +1,4 @@
+{
+    "name": "Push to Main Branch Action",
+    "description": "Main 브랜치로 Push할 때 수행하는 작업입니다"
+}

@@ -1,0 +1,4 @@
+{
+    "name": "Deploy Build Output From Artifact to S3 Action",
+    "description": "Build 된 결과물을 S3에 배포하는 작업입니다"
+}

@@ -1,0 +1,4 @@
+{
+    "name": "PR to Main Branch Action",
+    "description": "PR을 Main 브랜치로 Merge할 때 수행하는 작업입니다"
+}
